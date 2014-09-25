@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "CinnamonCake";
+	src: url("cinnamon cake.ttf.ttf");
+}
+
+@font-face {
+	font-family: "CinnamonIE";
+	src: url("cinnamoncake.otf");
+}
+
+@font-face {
+	font-family: "CakeIE";
+	src: url("cinnamon_cake.eot");
+}
+
+body, html {
+	min-height: 100%;
+	min-width: 680px;
+	height: 100%;
+	position: relative;
+}
+
+body {
+	font-family: "CinnamonCake", "CinnamonIE", "CakeIE";
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url("Images/sideBorder.PNG");
+	margin-top: 0;
+}
+
+#container {
+	margin-left: 100px;
+	margin-right: 100px;
+	min-height: 85%;
+	background-color: #FFFF66;
+}
+
+#header {
+	font-weight: bold;
+	width: 100%;
+	height: 70px;
+	background-image: url("Images/patches.png");
+	background-repeat: cover;
+}
+
+#navBar {
+	border: 3px ridge grey;
+	background-image: url("Images/menubar.PNG");
+}
+
+.link {
+	background: none;
+	border: none;
+	font-size: 14px;
+}
+
+.link:hover {
+	color: lightgrey;
+}
+
+#navBar ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#beeRight {
+	right: 0px;
+	position: absolute;
+}
+
+#spacer {
+	height: 25px;
+}
+
+#titleContainer {
+	position: absolute;
+	top: 0px;
+	width: 99.4%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#titleText {
+	width: 485px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+@media print {
+	.noPrint {
+		display: none;
+	}
+}
+
+
